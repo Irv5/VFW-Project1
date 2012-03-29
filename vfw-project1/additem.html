@@ -29,3 +29,42 @@
 					<li>Date Added to Catalog: <input type="date" name="Date Added to Catalo" /></li>
 				</ul>
 			</fieldset>
+			<fieldset>
+				<legend>Questions</legend>
+					<ul>
+						<li>Select the categories of music you have the most of: 
+							<ul>
+							
+								<li><input type="checkbox" value="Party" id="Party" /><label for="Party">Party Music</label></li>
+								<li><input type="checkbox" value="Relaxed" id="Relaxed" /><label for="Relaxed">Relaxed Music</label></li>
+								<li><input type="checkbox" value="Fun" id="Fun" /><label for="Fun">Fun Music</label></li>
+							</ul>
+						</li>
+						<li> Add to Favorites:
+							<ul>
+								<li><input type="radio" value="Yes" id="Yes" name="Favorites" /><label for="Yes">Add to Favorites</label></li>
+								<li><input type="radio" value="No" id="No" name="Favorites" /><label for="No">Don't Add to Favorites</label></li>
+							</ul>
+						</li>
+						<li>
+							<label for="Genre">Preferred Listen Music</label>
+							<select id="Genre">
+								<optgroup label="Easy Listing Music">
+									<option value="Blues">Blues</option>
+									<option value="Classical Music">Classical Music</option>
+									<option value="Jazz">Jazz</option>
+									<option value="Other">Other</option>
+								</optgroup>
+								<optgroup label="Party Music">
+									<option value="R&B">R&B</option>
+									<option value="Hip Hop">Hip Hop</option>
+									<option value="Reggae">Reggae</option>
+									<option value="Rap">Rap</option>
+									<option value="Other">Other</option>
+								</optgroup>
+							</select>
+						</li>
+						<li><label for="comments">What's your Favorite Song and Artist?:</label><textarea id="comments"></textarea></li>
+						<li><input type="hidden" value="true" /></li>
+					</ul>	
+			</fieldset>
